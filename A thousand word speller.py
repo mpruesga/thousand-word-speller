@@ -204,7 +204,7 @@ while True:
 openai.api_key=""
 
 
-mensaje="Engineer an efficient image prompt to input in DALLE based on the following elements: "+", ".join(lis)
+mensaje = "Engineer an efficient image prompt to input in Stable Difussion based on the following elements: "+", ".join(lis)
 
 
 response=openai.ChatCompletion.create(
